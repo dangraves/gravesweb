@@ -1,0 +1,97 @@
+/* 
+  -----------------------------------
+  Graves Media Layout CSS
+  by Graves Media
+  www.graves-media.com
+  Style Theme: Custom
+  -----------------------------------
+*/
+@charset "utf-8";
+/* CSS Document */
+
+
+*{margin: 0px; padding: 0px;}
+html { background-image: url(../images/wood_bg_2.jpg); background-repeat: repeat;}
+
+
+
+/*Layout*/
+#wrapper {width: 804px; margin: 0 auto; margin-top: 20px;}
+
+#sound { min-height:20px; margin: 0 auto; width:460px;}
+
+#logo {width: 100%; height: 500px;}
+.logo { margin-top: 100px;}
+
+#contact {width: 100%; min-height: 20px; margin-top: 40px; text-align:center;}
+
+
+
+/*Fonts*/
+p {
+	font-family: 'Raleway', sans-serif;
+	color: #DBDBDB;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+p.footer {
+	font-family: 'Raleway', sans-serif;
+	color: #DBDBDB;
+	font-size:16px;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	font-size:20px
+}
+h4 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size:16px
+}
+ul { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size:12px
+}
+
+li {list-style-position: inside;}	
+
+
+
+
+/*Links*/
+a {outline: none;}
+
+a:link {
+	text-decoration: none;
+	color: #DBDBDB;
+}
+a:visited {
+	text-decoration: none;
+	color: #DBDBDB;
+}
+a:hover {
+	text-decoration: none;
+	color: #DBDBDB;
+}
+a:active {
+	text-decoration: none;
+	color: #DBDBDB;
+}
+a img {border: none;}
+
+
+
+
+
+
+/* CSS3 Shadow Properties*/
+.shadow {
+-moz-box-shadow: 5px 5px 2px #888;
+-webkit-box-shadow: 5px 5px 2px #888;
+box-shadow: 5px 5px 2px #888;
+}
+
+
